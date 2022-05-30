@@ -17,7 +17,7 @@
 body{
     height: 100vh;
     background: url(bg1.jpg) no-repeat center;
-    background-size: cover;
+    background-size: auto;
     display: flex;
     align-items: center;
     justify-content: center;
