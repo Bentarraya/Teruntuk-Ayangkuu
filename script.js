@@ -1,5 +1,5 @@
 function showDiv() {
-  Content.style = "opacity:1;margin-top:15vh;";
+  Content.style = "opacity:1;margin-top:10vh;";
   ket.style = "margin-top:30px";
 }
 function memulai() {
@@ -72,10 +72,10 @@ function kemunculan3() {
   setTimeout(kemunculan4, 3500);
 }
 function kemunculan4() {
-    otomatis();
-    kalimatc.innerHTML = ktbwh4;
-    setTimeout(kemunculan, 3500);
-  }
+  otomatis();
+  kalimatc.innerHTML = ktbwh4;
+  setTimeout(kemunculan, 3500);
+}
 var aa = 0,
   katangetik;
 function ngetik() {
@@ -110,7 +110,7 @@ function ngetik2() {
 
 async function jawab() {
   await swals.fire("Kirim pesan ke WhatsApp aku, ya!");
-  window.location = "https://wa.me/qr/57DOF42TAL35M1" + pesanwhatsapp;
+  window.location = "https://api.whatsapp.com/send?phone=(62895620496881)" + pesanwhatsapp;
 }
 
 async function pertama() {
@@ -143,7 +143,7 @@ async function pesan() {
     ktbwh1 = "Jangan Pernah Pergi ya sayang";
     ktbwh2 = "Tetap Sama Aku Terus";
     ktbwh3 = "Aku selalu sayang dan cinta kamu";
-    ktbwh4 = "I LOVE YOU CANTIKK❤️❤️❤️"
+    ktbwh4 = "I LOVE YOU CANTIKK❤️❤️❤️";
     pesanwhatsapp = "Aku sayang sama kamu. I Love You too ><";
   } else {
     ketrgn = "no";
