@@ -1,0 +1,24 @@
+:root {
+  --warna-bg: rgba(0, 0, 0, 0.75);
+  --warna-teks: white;
+  --warna-bingkai: rgba(255, 255, 255, 0.8);
+  --bingkai: 10px;
+  --gaya-font: "Ubuntu", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background: url(bg1.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
