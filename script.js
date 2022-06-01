@@ -110,7 +110,7 @@ function ngetik2() {
 
 async function jawab() {
   await swals.fire("Kirim pesan ke WhatsApp aku, ya!");
-  window.location = "https://wa.me/qr/RVRYGPWNFYQBF1" + pesanwhatsapp;
+  window.location = "https://api.whatsapp.com/send?phone=62895620496881=&text=" + pesanwhatsapp;
 }
 
 async function pertama() {
